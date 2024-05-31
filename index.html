@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Todo List App</h1>
+    </header>
+    <div id="container1">
+      <label for="input-box" id="intro-message">
+        Mow the lawn, wash your car, cancel that subscription...?
+      </label>
+      <input
+        type="text"
+        name="activity-input"
+        id="text-field"
+        placeholder="Type task here"
+      />
+      <button id="Add" class="button">Add</button>
+      <button id="Clear" class="button">Clear</button>
+    </div>
+    <div id="container2">
+      <ul id="taskList"></ul>
+    </div>
+  </body>
+</html>
